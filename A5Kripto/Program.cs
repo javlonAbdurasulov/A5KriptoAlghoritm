@@ -14,23 +14,25 @@ namespace A5Kripto
                 int[] x = { 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0 };
                 int[] y = { 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0 };
                 int[] z = { 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1 };
+            
+            #region
+            //int[] x = new int[19];
+            //int[] y = new int[22];
+            //int[] z = new int[23];
 
-                //int[] x = new int[19];
-                //int[] y = new int[22];
-                //int[] z = new int[23];
-
-                //for (int i = 0; i < x.Length; i++)
-                //{
-                //    x[i]= rand.Next(0,2);
-                //}
-                //for (int i = 0; i < y.Length; i++)
-                //{
-                //    y[i]= rand.Next(0,2);
-                //}
-                //for (int i = 0; i < z.Length; i++)
-                //{
-                //    z[i]= rand.Next(0,2);
-                //}
+            //for (int i = 0; i < x.Length; i++)
+            //{
+            //    x[i]= rand.Next(0,2);
+            //}
+            //for (int i = 0; i < y.Length; i++)
+            //{
+            //    y[i]= rand.Next(0,2);
+            //}
+            //for (int i = 0; i < z.Length; i++)
+            //{
+            //    z[i]= rand.Next(0,2);
+            //}
+            #endregion
 
             while (count < 8)
             {
